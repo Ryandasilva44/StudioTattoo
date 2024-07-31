@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+  body {
+  background-image: url("./assets/background.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+   height: 100vh;
+ }
+
+:root{
+  --primary-color: rgb(245, 85, 11);
+  --secundary-color: #121212;
+  --color-cor: #f2f2f2;
+
+}

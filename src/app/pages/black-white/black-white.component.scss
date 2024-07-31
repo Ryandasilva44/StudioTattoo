@@ -1,0 +1,95 @@
+.title__principal {
+  font-family: "Playfair Display";
+  letter-spacing: 0.3em;
+}
+
+img {
+  object-fit: cover;
+  width: 25%;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+  }
+}
+
+.image1 {
+  height: 21.555rem;
+  animation: fadeInLeft ease;
+  animation-duration: 5s;
+
+  &:hover{
+    border: .1em solid var(--color-cor);
+  }
+
+}
+
+.image {
+  height: 21.555rem;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    border: .1em solid var(--color-cor);
+  }
+}
+
+.image_02 {
+  height: 21.555rem;
+  animation: fadeInRight ease;
+  animation-duration: 7s;
+
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    border: .1em solid var(--color-cor);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 50% 33%;
+  }
+
+  .image1,
+  .image,
+  .image_02 {
+    min-width: 100%;
+    margin: 0rem 0rem 0rem -8rem;
+
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(0);
+    opacity: 5;
+  }
+
+  100% {
+    transform: translateX(1);
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(0);
+    opacity: 7;
+  }
+
+  100% {
+    transform: translateX(1);
+    opacity: 1;
+  }
+}

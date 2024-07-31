@@ -1,0 +1,26 @@
+<section
+  style="
+    background-image: url('../../../assets/background.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  "
+>
+  <p class="text-light text-center mt-4 h3 fw-bolder text_principal">
+    {{ titlePrincipal }}
+  </p>
+
+  <section>
+    <div class="d-flex justify-content-between container mt-4">
+      <img [src]="imgUrl1" class="rounded-3 image1 mb-5" @zoomIn />
+      <img [src]="imgUrl2" class="rounded-3 image mb-5" @zoomIn />
+      <img [src]="imgUrl3" class="rounded-3 image_02 mb-5" @zoomIn />
+    </div>
+
+    <div class="d-flex justify-content-between container mt-4">
+      <img [src]="imgUrl4" class="rounded-3 image1 mb-5" @zoomIn />
+      <img [src]="imgUrl5" class="rounded-3 image mb-5" @zoomIn />
+      <img [src]="imgUrl6" class="rounded-3 image_02 mb-5" @zoomIn />
+    </div>
+  </section>
+</section>

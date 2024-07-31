@@ -1,0 +1,94 @@
+.tittle_principal {
+  font-family: "Playfair Display";
+  letter-spacing: 0.3em;
+}
+
+img {
+  animation: zoomIn ease;
+  animation-duration: 0.8s;
+  object-fit: cover;
+  width: 25%;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+  }
+}
+
+.image {
+  height: 21.555rem;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    margin-top: -0.5em;
+    border: 0.1em solid var(--color-cor);
+  }
+}
+
+.image_02 {
+  height: 21.555rem;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    margin-top: -0.5em;
+    border: 0.1em solid var(--color-cor);
+  }
+}
+
+.image-06 {
+  height: 21.555rem;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    margin-top: -0.5em;
+    border: 0.1em solid var(--color-cor);
+  }
+}
+
+.image-05 {
+  height: 21.555rem;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    margin-top: -0.5em;
+    border: 0.1em solid var(--color-cor);
+  }
+}
+
+.image-04 {
+  height: 21.555rem;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    margin-top: -0.5em;
+    border: 0.1em solid var(--color-cor);
+  }
+}
+
+.image1 {
+  height: 21.555rem;
+
+  &:hover {
+    box-shadow: 0.5em 0.5em 0.5em #fff;
+    margin-top: -0.5em;
+    border: 0.1em solid var(--color-cor);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 50% 33%;
+  }
+
+  .image1,
+  .image,
+  .image_02,
+  .image-04,
+  .image-05,
+  .image-06 {
+    min-width: 100%;
+    margin: 0rem 0rem 0rem -10.222rem;
+    object-fit: cover;
+    background-position: center;
+  }
+}

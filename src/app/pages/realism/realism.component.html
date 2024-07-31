@@ -1,0 +1,22 @@
+<section
+  style="
+    background-image: url('../../../assets/background.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  "
+>
+  <p class="text-light text-center m-4 fs-3 text_principal fw-bold">
+    {{ textPrincipal }}
+  </p>
+  <div class="container d-flex justify-content-between mt-3">
+    <img [src]="getImage" class="rounded-3 image1 mb-3" @zoomIn />
+    <img [src]="pathImage" class="rounded-3 image mb-3" @zoomIn />
+    <img [src]="pathImage2" class="rounded image_02" @zoomIn />
+  </div>
+  <div class="container d-flex justify-content-between mt-3">
+    <img [src]="pathImage4" class="rounded-3 image1 mb-3" @zoomIn />
+    <img [src]="pathImage5" class="rounded-3 image mb-3" @zoomIn />
+    <img [src]="pathImage6" class="rounded image_02" @zoomIn />
+  </div>
+</section>
